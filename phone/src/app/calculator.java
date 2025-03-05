@@ -16,33 +16,36 @@ public class calculator {
             } else {
                 a = c;
             }
-//        Birichi son uchun
+//        for first number
 
         System.out.printf("Second number : ");
         b = scanner.nextInt() ;
-//        Ikkinchi son uchun
+//        for second number
 
         System.out.printf("What actions do you want to take ( 0.+ , 1.- , 2.* , 3./ ) : ");
         e = scanner.nextInt() ;
-//        Amalni bilib olish uchun
+//        for action
 
 
                 if (e == 0) {
                     c = a + b;
                 }
-//        Qoshish
+//        number addition
+            
                 if (e == 1) {
                     c = a - b;
                 }
-//        Ayru
+//        number subtraction
+            
                 if (e == 2) {
                     c = a * b;
                 }
-//        Kopaytiru
+//        number multiplication
+            
                 if (e == 3) {
                     c = a / b;
                 }
-//        Boluv
+//        number division
 
 
                 System.out.println("Total : "+ c );
