@@ -3,4 +3,4 @@
 ### This project no go to end (stopped for unknown time).
 
 ### But in this project I finished calculator.
-Calculator can use non-stop
+Calculator is veri simpl
